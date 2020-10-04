@@ -3,24 +3,24 @@ public class Retangulo {
 	private int Largura;
 
 	public Retangulo(int altura, int largura) {
-		Altura = altura;
-		Largura = largura;
+		this.Altura = altura;
+		this.Largura = largura;
 	}
 	
 	public int getPerimetro() {
-		return (2 * Altura) + (2 * Largura);
+		return (2 * this.Altura) + (2 * this.Largura);
 	}
 	
 	public int getArea() {
-		return Altura * Largura;
+		return this.Altura * this.Largura;
 	}
 	
 	public int getAltura() {
-		return Altura;
+		return this.Altura;
 	}
 	
 	public int getLargura() {
-		return Largura;
+		return this.Largura;
 	}
 
 	public static void main(String[] args) {
