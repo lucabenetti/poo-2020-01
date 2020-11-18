@@ -4,12 +4,8 @@ Conforme orientações em aula, fiz a resolução utilizando o **maven** e **ecl
 
 De qualquer maneira, caso deseje acessar as classes diretamente:
 
-- [Classe ItemNotaFiscal](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/01/src/main/java/pratica01/exercicio01/ItemNotaFiscal.java)
-- [Classe NotaFiscal](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/01/src/main/java/pratica01/exercicio01/NotaFiscal.java)
-- [Classe Produto](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/01/src/main/java/pratica01/exercicio01/Produto.java)
-
-Também não fiz qualquer implementação no *Main*, ao invés disso, fiz a implementação de um teste simples para cada classe especificada.
-
-- [Teste ItemNotaFiscal](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/01/src/test/java/pratica01/exercicio01/ItemNotaFiscalTest.java)
-- [Teste NotaFiscal](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/01/src/test/java/pratica01/exercicio01/NotaFiscalTest.java)
-- [Teste Produto](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/01/src/test/java/pratica01/exercicio01/ProdutoTest.java)
+- [Classe Animal](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/02/src/main/java/pratica02/exercicio02/Animal.java)
+- [Classe Boi](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/02/src/main/java/pratica02/exercicio02/Boi.java)
+- [Classe Cachorro](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/02/src/main/java/pratica02/exercicio02/Cachorro.java)
+- [Classe Sapo](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/02/src/main/java/pratica02/exercicio02/Sapo.java)
+- [Classe TestaAnimais](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/02/src/main/java/pratica02/exercicio02/TestaAnimais.java)
