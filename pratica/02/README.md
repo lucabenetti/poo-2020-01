@@ -1,4 +1,4 @@
-# 01
+# 02
 
 Conforme orientações em aula, fiz a resolução utilizando o **maven** e **eclipse**. Assim, para visualizar o projeto é interessante clonar este diretório e executar o comando `mvn clean install`.
 
