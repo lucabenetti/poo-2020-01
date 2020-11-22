@@ -6,7 +6,7 @@ public class NotaFiscal {
 	private ArrayList<ItemNotaFiscal> itensNotaFiscal = new ArrayList<ItemNotaFiscal>();
 	
 	public NotaFiscal(ArrayList<ItemNotaFiscal> itensNotaFiscal) {
-		this.itensNotaFiscal = itensNotaFiscal;
+		setItensNotaFiscal(itensNotaFiscal);
 	}
 	
 	public float getTotal() {
@@ -18,5 +18,13 @@ public class NotaFiscal {
 		}
 		
 		return total;
+	}
+	
+	public ArrayList<ItemNotaFiscal> getItensNotaFiscal() {
+		return itensNotaFiscal;
+	}
+	
+	public void setItensNotaFiscal(ArrayList<ItemNotaFiscal> itensNotaFiscal) {
+		this.itensNotaFiscal = itensNotaFiscal;
 	}
 }

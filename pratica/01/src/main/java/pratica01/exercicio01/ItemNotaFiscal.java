@@ -5,8 +5,8 @@ public class ItemNotaFiscal {
 	private int quantidade;
 
 	public ItemNotaFiscal(Produto produto, int quantidade) {
-		this.produto = produto; 
-		this.quantidade = quantidade;
+		setProduto(produto); 
+		setQuantidade(quantidade);
 	}
 	
 	public float getTotal() {
@@ -19,5 +19,21 @@ public class ItemNotaFiscal {
 		float totalDoItem = quantidade * precoComImposto;
 		
 		return totalDoItem;
+	}
+	
+	public Produto getProduto() {
+		return produto;
+	}
+	
+	public int getQuantidade() {
+		return quantidade;
+	}
+	
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
+	
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
 	}
 }

@@ -6,9 +6,9 @@ public class Produto {
 	private float aliquota;
 	
 	public Produto(String descricao, float preco, float aliquota) {
-		this.descricao = descricao;
-		this.preco = preco;
-		this.aliquota = aliquota;
+		setDescricao(descricao);
+		setPreco(preco);
+		setAliquota(aliquota);
 	}
 	
 	public String getDescricao() {
@@ -23,4 +23,15 @@ public class Produto {
 		return this.aliquota;
 	}
 	
+	public void setAliquota(float aliquota) {
+		this.aliquota = aliquota;
+	}
+	
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	
+	public void setPreco(float preco) {
+		this.preco = preco;
+	}
 }
