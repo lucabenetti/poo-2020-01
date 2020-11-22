@@ -12,17 +12,17 @@ public class TestaAnimais {
     	
     	TestaAnimais testaAnimais = new TestaAnimais();
     	
-    	//1 - Com método ExibeSonsAnimais
+    	//1 - Com mÃ©todo ExibeSonsAnimais
     	testaAnimais.ExibeSonsAnimais(animais);
     	
-    	//2 - Com método executaOperacao e interface
+    	//2 - Com mÃ©todo executaOperacao e interface
     	testaAnimais.executaOperacao(animais, new Animal());
     	
     }
 	
 	public void executaOperacao(Animal[] animais, Operacao op) {
 		
-		//3 - Adiciona idadeMedia e método IdadeMedia na interface
+		//3 - Adiciona idadeMedia e mÃ©todo IdadeMedia na interface
 		int somaIdadeMedia = 0;
 		
 		for (Animal a : animais) {
@@ -35,7 +35,7 @@ public class TestaAnimais {
 	
 	public void ExibeSonsAnimais(Animal[] animais) {
 		for (int i = 0; i < animais.length; i++) {
-            System.out.println(animais[i].som());
-        }
+            		System.out.println(animais[i].som());
+        	}
 	}
 }
