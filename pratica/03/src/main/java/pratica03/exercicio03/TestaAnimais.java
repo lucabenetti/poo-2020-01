@@ -2,23 +2,21 @@ package pratica03.exercicio03;
 
 public class TestaAnimais {
 	
-	public static void main(String[] args)
-    {
-    	Animal[] animais = new Animal[3];
-    	
-    	animais[0] = new Sapo(2);
-    	animais[1] = new Cachorro(10);
-    	animais[2] = new Boi(5);
-    	
-    	TestaAnimais testaAnimais = new TestaAnimais();
-    	
-    	//1 - Com método ExibeSonsAnimais
-    	testaAnimais.ExibeSonsAnimais(animais);
-    	
-    	//2 - Com método executaOperacao e interface
-    	testaAnimais.executaOperacao(animais, new Animal());
-    	
-    }
+	public static void main(String[] args) {
+		Animal[] animais = new Animal[3];
+
+		animais[0] = new Sapo(2);
+		animais[1] = new Cachorro(10);
+		animais[2] = new Boi(5);
+
+		TestaAnimais testaAnimais = new TestaAnimais();
+
+		//1 - Com método ExibeSonsAnimais
+		testaAnimais.ExibeSonsAnimais(animais);
+
+		//2 - Com método executaOperacao e interface
+		testaAnimais.executaOperacao(animais, new Animal());
+    	}
 	
 	public void executaOperacao(Animal[] animais, Operacao op) {
 		
