@@ -11,16 +11,16 @@ public class TestaAnimais {
 
 		TestaAnimais testaAnimais = new TestaAnimais();
 
-		//1 - Com método ExibeSonsAnimais
+		//1 - Com metodo ExibeSonsAnimais
 		testaAnimais.ExibeSonsAnimais(animais);
 
-		//2 - Com método executaOperacao e interface
+		//2 - Com metodo executaOperacao e interface
 		testaAnimais.executaOperacao(animais, new Animal());
     	}
 	
 	public void executaOperacao(Animal[] animais, Operacao op) {
 		
-		//3 - Adiciona idadeMedia e método IdadeMedia na interface
+		//3 - Adiciona idadeMedia e metodo IdadeMedia na interface
 		int somaIdadeMedia = 0;
 		
 		for (Animal a : animais) {

@@ -25,4 +25,12 @@ public class Animal implements Operacao {
 	public int IdadeMedia(Object obj) {
 		return ((Animal)obj).idadeMedia;
 	}
+	
+	public int getIdadeMedia() {
+		return idadeMedia;
+	}
+	
+	public void setIdadeMedia(int idadeMedia) {
+		this.idadeMedia = idadeMedia;
+	}
 }
