@@ -7,10 +7,10 @@ public class Livro {
 	private String editora;
 
 	public Livro(String titulo, String autor, String editora, int ano) {
-		this.titulo = titulo;
-		this.autor = autor;
-		this.editora = editora;
-		this.ano = ano;
+		setTitulo(titulo);
+		setAutor(autor);
+		setEditora(editora);
+		setAno(ano);
 	}
 	
 	@Override
@@ -49,4 +49,5 @@ public class Livro {
 	public String getEditora() {
 		return editora;
 	}
+	
 }
