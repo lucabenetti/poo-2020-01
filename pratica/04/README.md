@@ -4,9 +4,5 @@ Conforme orientações em aula, fiz a resolução utilizando o **maven** e **ecl
 
 De qualquer maneira, caso deseje acessar as classes diretamente:
 
-- [Classe Animal](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/03/src/main/java/pratica03/exercicio03/Animal.java)
-- [Classe Boi](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/03/src/main/java/pratica03/exercicio03/Boi.java)
-- [Classe Cachorro](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/03/src/main/java/pratica03/exercicio03/Cachorro.java)
-- [Classe Sapo](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/03/src/main/java/pratica03/exercicio03/Sapo.java)
-- [Classe TestaAnimais](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/03/src/main/java/pratica03/exercicio03/TestaAnimais.java)
-- [Interface Operacao](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/03/src/main/java/pratica03/exercicio03/Operacao.java)
+- [Classe Livro](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/04/src/main/java/exercicio04/pratica04/Livro.java)
+- [Classe TestaLivro](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/04/src/main/java/exercicio04/pratica04/TestaLivro.java)
