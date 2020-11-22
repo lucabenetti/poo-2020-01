@@ -9,7 +9,7 @@ public class Animal implements Operacao {
 	}
 	
 	public Animal(int idadeMedia) {
-		this.idadeMedia = idadeMedia;
+		setIdadeMedia(idadeMedia);
 	}
 	
 	public String som() {
