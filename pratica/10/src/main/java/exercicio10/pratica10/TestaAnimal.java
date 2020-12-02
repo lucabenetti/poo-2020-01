@@ -31,6 +31,6 @@ public class TestaAnimal {
 
         // Exibindo gato e rato (não são mais amigos)
         System.out.println("Amigos de gato: " + gato.amigosAnimal());
-        System.out.println("Amgos de rato: " + rato.amigosAnimal());
+        System.out.println("Amigos de rato: " + rato.amigosAnimal());
     }
 }

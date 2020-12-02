@@ -44,6 +44,9 @@ public class Animal {
     }
 
     public String amigosAnimal() {
+    	if(amigos.isEmpty()) {
+    		return "O animal não possui amigos";
+    	}
         return amigos.toString();
     }
 }
