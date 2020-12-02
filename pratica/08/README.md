@@ -4,8 +4,5 @@ Conforme orientações em aula, fiz a resolução utilizando o **maven** e **ecl
 
 De qualquer maneira, caso deseje acessar as classes diretamente:
 
-- [Classe Editora](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/06/src/main/java/exercicio06/pratica06/Editora.java)
-- [Classe Emprestimo](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/06/src/main/java/exercicio06/pratica06/Emprestimo.java)
-- [Classe Livro](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/06/src/main/java/exercicio06/pratica06/Livro.java)
-- [Classe Pessoa](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/06/src/main/java/exercicio06/pratica06/Pessoa.java)
-- [Classe TestaEmprestimo](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/06/src/main/java/exercicio06/pratica06/TestaEmprestimo.java)
+- [Classe Pessoa](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/08/src/main/java/exercicio08/pratica08/Pessoa.java)
+- [Classe TestaPessoa](https://github.com/lucabenetti/poo-2020-01/blob/master/pratica/08/src/main/java/exercicio08/pratica08/TestaPessoa.java)
